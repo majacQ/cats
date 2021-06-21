@@ -7,7 +7,7 @@ For good measure (and because I suppose I am now committed to collecting
 cats) also included are Second Edition Unix (in assembly) and Inferno's
 implementation (in Limbo) for good measure.
 
-All cat.c files (renamed by prefixing the name of the source source)
+All cat.c files (renamed by prefixing the name of the source)
 are presented, unaltered and in their entirety.  Note how easy it is to
 read and understand plan9-cat.c (it should take less than a couple of
 minutes possibly even for coders that don't know C).  Other than that,
@@ -28,4 +28,4 @@ Lines  Chars  Filename
   222   3948  4.3bsd-cat.c
   316   6952  netbsd-cat.c
   782  22684  gnu-cat.c
- 1647  39073  total
+ 1647  39073  
