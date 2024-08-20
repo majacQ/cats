@@ -10,5 +10,12 @@ BEGIN {
 	while("wc -lc *-cat.* | sort -n" | getline) {
 		r = r $0 "\n"
 	}
-	print r
+	printf "%s", r > "README"
 }
+
+# TODO: Check for presence of tcc (for `tcc -run`) or some more conventional C
+# compiler, then rewrite the above to produce two intermediate files and
+# compile/run a random cat from the repo to produce the final output file.
+
+# Incidentally, if you are space-constrained on a small system but you have awk,
+# the most compact implementation of cat is two bytes in awk:  '1;'
