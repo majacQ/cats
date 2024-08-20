@@ -1,0 +1,14 @@
+#!/bin/awk -f
+
+BEGIN {
+	r = ""
+	while(getline < "README") {
+		r = r $0 "\n"
+		if($0 ~ /^-+$/)
+			break
+	}
+	while("wc -lc *-cat.* | sort -n" | getline) {
+		r = r $0 "\n"
+	}
+	print r
+}
