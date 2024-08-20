@@ -1,0 +1,37 @@
+Busybox, toybox, xv6, NetBSD, OpenBSD, FreeBSD, DragonflyBSD, Ultrix
+3.1, IRIX 6.5.5, both versions that shipped with SunOS 4.1.3 (usr.bin
+and 5bin), Solaris 2.6, Seventh Edition Unix (1979), Tenth Edition
+Unix (1989), and 4.3BSD.
+
+For good measure (and because I suppose I am now committed to
+collecting cats) also included are Second Edition Unix (in assembly)
+and Inferno's implementation (in Limbo).
+
+There is also an example that ships with the readline source,
+apparently; I found it in /usr/share/readline/rlcat.c.  Another
+oddity, p9p comes with libbio/bcat.c.
+
+If you have some exotic cats, please feel free to send them.
+
+	Not that we needed all of that for the trip, but once you get
+	locked into a serious cat(1) collection, the tendency is to
+	push it as far as you can.  The only thing that really worried
+	me was the GNU coreutils.  There is nothing in the world more
+	helpless and irresponsible and depraved than a man in the
+	depths of a version of Unix that has a copyright notice on
+	/bin/true.  And I knew we'd get into that rotten stuff pretty
+	soon.
+
+	How long could we *maintain* this code?  I wonder.  How long
+	before one of us starts raving and jabbering at this boy?
+	What will he think then?  This same lonely office park was the
+	last known home of Alcatel-Lucent.  Will he make the grim
+	connection?
+
+	The read head suddenly veered off the drive and the machine
+	came to a halt in the gravel.  I was hurled against the
+	ASR-33.  Dennis was slumped over the wheel.  "What’s
+	wrong?" I yelled.  "We can’t stop here.  This is cat(1)
+	country!"
+
+-- An excerpt from "Fear and EINTR in New Jersey", by Ken S. Thompson.

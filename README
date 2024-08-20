@@ -1,13 +1,6 @@
 Here, placed side-by-side for comparison, are implementations of cat(1)
-from GNU's coreutils, Plan 9, Busybox, toybox, xv6, NetBSD, OpenBSD,
-FreeBSD, DragonflyBSD, Ultrix 3.1, Seventh Edition Unix (1979), Tenth
-Edition Unix (1989), and 4.3BSD.
-
-For good measure (and because I suppose I am now committed to collecting
-cats) also included are Second Edition Unix (in assembly) and Inferno's
-implementation (in Limbo).  There is also an example that ships with the
-readline source, apparently; I found it in /usr/share/readline/rlcat.c.
-Another oddity, p9p comes with libbio/bcat.c.
+from GNU's coreutils, Plan 9, and others.  See addendum.txt for more
+information.
 
 All cat.c files (renamed by prefixing the name of the source of the
 source) are presented, unaltered and in their entirety.  Note how easy
@@ -40,6 +33,11 @@ Lastly, here are the line and character counts, sorted:
     248    5581 openbsd-cat.c
     316    6952 netbsd-cat.c
     330    7297 dragonfly-cat.c
+    394    7082 sunos-usrbin-cat.c
+    428    8086 solaris-cat.c
+    450    8619 sunos-5bin-cat.c
+    474    8714 irix-cat.c
     511   11495 freebsd-cat.c
+    543   13321 aix-cat.c
     782   22684 gnu-cat.c
-   3292   73713 total
+   5581  119535 total
